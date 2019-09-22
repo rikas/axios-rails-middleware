@@ -1,4 +1,22 @@
 {
   "name": "@rikas/axios-rails-middleware",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "description": "Small axios middleware to convert JSON object keys from Rails snake_case to JavaScript camelCase and vice-versa",
+  "main": "index.js",
+  "repository": "rikas/axios-rails-middleware",
+  "license": "MIT",
+  "keywords": [
+    "rails",
+    "axios",
+    "middleware",
+    "json",
+    "conversion",
+    "keys"
+  ],
+  "dependencies": {
+    "axios": "^0.19.0",
+    "axios-middleware": "^0.3.1",
+    "change-case": "^3.1.0",
+    "deep-map-keys": "^2.0.1"
+  }
 }
