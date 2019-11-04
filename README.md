@@ -20,5 +20,6 @@ yarn add @rikas/axios-rails-middleware
 ## Usage
 
 ```javascript
-import from 'axios-rails-middleware';
+import registerService from 'axios-rails-middleware';
+registerService();
 ```
