@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Service } from 'axios-middleware';
 import { snake } from 'change-case';
-import { camel } from 'utils';
+import { camel } from './utils';
 import deepMapKeys from 'deep-map-keys';
 
 export const convertData = (data, method) => {
